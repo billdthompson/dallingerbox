@@ -1,0 +1,5 @@
+FROM dallingerbox
+EXPOSE 5000
+COPY /exp /exp
+WORKDIR /exp
+EXPOSE 5432
